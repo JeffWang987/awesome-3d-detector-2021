@@ -11,7 +11,7 @@
 | CVPR2021 | TuSimple | LiDAR R-CNN: An Efficient and Universal 3D Object Detector |  det:kitti,Waymo |
 | CVPR2021 | beihang | Back-tracing Representative Points for Voting-based 3D Object Detection in Point Clouds |  indoor det |
 | CVPR2021 | University of Hong Kong | ST3D: Self-training for Unsupervised Domain Adaptation on 3D Object Detection |  domain adaptation:kitti,waymo,nuScenes |
-| CVPR2021 | Stanford University | 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection |  det:kitti |
+| CVPR2021 | Stanford University | 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection |  semi supervised det:kitti |
 | CVPR2021 | CUHK | Bidirectional Projection Network for Cross Dimension Scene Understanding |  2D,3D seg |
 | CVPR2021 |  Tsinghua University | PV-RAFT: Point-Voxel Correlation Fields for Scene Flow Estimation of Point Clouds | estimate scene flow from point clouds |
 | CVPR2021 | HKUST | FFB6D：A Full Flow Bidirectional Fusion Network for 6D Pose Estimation |  RGBD:fuse RGB & D |
