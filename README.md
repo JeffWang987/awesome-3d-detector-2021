@@ -5,6 +5,7 @@
 
 | Pub.     | Org.   | Title | Remark |
 | :-----   | :----: | :----: | :---- |
+| CVPR2021 | Southeast University, NUST | SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud |  det:kitti |
 | CVPR2021 | Yonsei University | HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection |  det:kitti |
 | CVPR2021 | CUHK | SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud) |  det:kitti |
 | CVPR2021 | Waymo, Google brain | To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels |  det:Waymo |
@@ -35,6 +36,7 @@
 ## KITTI paper
 | Pub.     | Title. |  car moderate AP(test) |  Remark |
 | :-----   | :----: | :----: | :----: |
+| CVPR2021 | SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud |  81.71 |   -   |
 | CVPR2021 | HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection |  77.92 |   36.1Hz    |
 | CVPR2021 | SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud) |  82.57 |   30.56ms    |
 | CVPR2021 | LiDAR R-CNN: An Efficient and Universal 3D Object Detector |  74.21 |   based on pointpillar(increase 1.4mAP)    |
