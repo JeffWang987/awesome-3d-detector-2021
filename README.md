@@ -26,6 +26,7 @@
 | AAAI2021 | USTC | Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection |  det:kitti |
 | arXiv 2021.3 | CUHK, Google, Waymo | 3D-MAN: 3D Multi-frame Attention Network for Object Detection |  det:Waymo |
 | arXiv 2021.4 | USTC,MSRA | Group-Free 3D Object Detection via Transformers |  indoor det |
+| arXiv 2021.4 | University of Maryland, Fudan | M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers | det:kitti,Waymo |
 | arXiv 2021.5 | Renmin University of China | Boundary-Aware 3D Object Detection from Point Clouds |  det:kitti |
 | arXiv 2021.6 | Baidu | FusionPainting: Multimodal Fusion with Adaptive Attention for 3D Object  Detection |  det:nuScenes |
 | arXiv 2021.6 | Google, Waymo | RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection |  det:Waymo |
@@ -37,10 +38,10 @@
 | CVPR2021 | HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection |  77.92 |   36.1Hz    |
 | CVPR2021 | SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud) |  82.57 |   30.56ms    |
 | CVPR2021 | LiDAR R-CNN: An Efficient and Universal 3D Object Detector |  74.21 |   based on pointpillar(increase 1.4mAP)    |
-| CVPR2021 | 3DIoUMatch: Leveraging IoU Prediction for Semi-Supervised 3D Object Detection |  82.57 |   30.56ms    |
 | ICRA2021 | FGR: Frustum-Aware Geometric Reasoning for Weakly Supervised 3D Vehicle Detection |  68.47 |   without 3D label    |
 | AAAI2021 | CIA-SSD: Confident IoU-Aware Single-Stage Object Detector From Point Cloud |  80.28 |   32FPS    |
 | AAAI2021 | Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection |  81.62 |   25FPS    |
+| arXiv 2021.4 | M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers |  81.73 |  Transformers based   |
 | arXiv 2021.5 | Boundary-Aware 3D Object Detection from Point Clouds |  81.61 |   car bev rank 1st    |
 
 ## nuScenes paper
@@ -56,4 +57,5 @@
 | CVPR2021 | LiDAR R-CNN: An Efficient and Universal 3D Object Detector |  64.2 |  51.7  |
 | CVPR2021WAD | 1st Place Solution for Waymo Open Dataset Challenge |  77.83 |  76.6  |
 | arXiv 2021.3 | 3D-MAN: 3D Multi-frame Attention Network for Object Detection |  67.14 |  59.04  |
+| arXiv 2021.4 | M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers |  66.02 | -  |
 | arXiv 2021.6 | RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection |  69.5 |  69.9  |
