@@ -55,7 +55,7 @@
 ## Waymo paper
 | Pub.     | Title. | vehicle 3D APH L2(val) |  Pedestrian 3D APH L2(val) |
 | :-----   | :----: | :----: | :----: |
-| CVPR2021 | HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection |  56.7 |  61.5  |
+| CVPR2021 | To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels |  56.7 |  61.5  |
 | CVPR2021 | LiDAR R-CNN: An Efficient and Universal 3D Object Detector |  64.2 |  51.7  |
 | CVPR2021WAD | 1st Place Solution for Waymo Open Dataset Challenge |  77.83 |  76.6  |
 | arXiv 2021.3 | 3D-MAN: 3D Multi-frame Attention Network for Object Detection |  67.14 |  59.04  |
