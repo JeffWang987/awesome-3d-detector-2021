@@ -1,10 +1,12 @@
 # awesome-3d-detector-2021
-3d-detector papers within year 2021, including CVPR, ICRA, ICLR, AAAI, arXiv, etc.
+3d-detector papers within year 2021, including CVPR, ICRA, ICLR, AAAI, ICCV, arXiv, etc.
 
 ## Paper List (before 2021.7)
 
 | Pub.     | Org.   | Title | Remark |
 | :-----   | :----: | :----: | :---- |
+| ICCV2021 |USC, Waymo | SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation |  det:kitti,Waymo |
+| ICCV2021 | Zhejiang University, DAMO Academy | Improving 3D Object Detection with Channel-wise Transformer |  det:kitti, Waymo |
 | CVPR2021 | Southeast University, NUST | SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud |  det:kitti |
 | CVPR2021 | Yonsei University | HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection |  det:kitti |
 | CVPR2021 | CUHK | SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud) |  det:kitti |
@@ -36,6 +38,8 @@
 ## KITTI paper
 | Pub.     | Title. |  car moderate AP(test) |  Remark |
 | :-----   | :----: | :----: | :----: |
+| ICCV2021 | Improving 3D Object Detection with Channel-wise Transformer |  81.77 |   Transformer   |
+| ICCV2021 | SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation |  82.13 |   Domain adapation   |
 | CVPR2021 | SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud |  81.71 |   -   |
 | CVPR2021 | HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection |  77.92 |   36.1Hz    |
 | CVPR2021 | SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud) |  82.57 |   30.56ms    |
@@ -55,6 +59,8 @@
 ## Waymo paper
 | Pub.     | Title. | vehicle 3D APH L2(val) |  Pedestrian 3D APH L2(val) |
 | :-----   | :----: | :----: | :----: |
+| ICCV2021 | Improving 3D Object Detection with Channel-wise Transformer |  69.04 |   -   |
+| ICCV2021 | SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation |  65.98 |   57.68   |
 | CVPR2021 | To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels |  56.7 |  61.5  |
 | CVPR2021 | LiDAR R-CNN: An Efficient and Universal 3D Object Detector |  64.2 |  51.7  |
 | CVPR2021WAD | 1st Place Solution for Waymo Open Dataset Challenge |  77.83 |  76.6  |
