@@ -1,10 +1,14 @@
 # awesome-3d-detector-2021
 3d-detector papers within year 2021, including CVPR, ICRA, ICLR, AAAI, ICCV, arXiv, etc.
 
-## Paper List (before 2021.7)
+## Paper List (before 2021.9)
 
 | Pub.     | Org.   | Title | Remark |
 | :-----   | :----: | :----: | :---- |
+| ICCV2021 | CUHK, HUAWEI Noah | Pyramid R-CNN:Towards Better Performance and Adaptability for 3D Object Detection | det:kitti,Waymo |
+| ICCV2021 | QCraft | Exploring Simple 3D Multi-Object Tracking for Autonomous Driving | tracking |
+| ICCV2021(oral) |Tsinghua | PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers | point completion |
+| ICCV2021 |CUHK, HUAWEI Noah | VoTr: Voxel Transformer for 3D Object Detection | det:kitti,Waymo |
 | ICCV2021 |USC, Waymo | SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation |  det:kitti,Waymo |
 | ICCV2021 | Zhejiang University, DAMO Academy | Improving 3D Object Detection with Channel-wise Transformer |  det:kitti, Waymo |
 | CVPR2021 | Southeast University, NUST | SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud |  det:kitti |
@@ -31,13 +35,17 @@
 | arXiv 2021.4 | USTC,MSRA | Group-Free 3D Object Detection via Transformers |  indoor det |
 | arXiv 2021.4 | University of Maryland, Fudan | M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers | det:kitti,Waymo |
 | arXiv 2021.5 | Renmin University of China | Boundary-Aware 3D Object Detection from Point Clouds |  det:kitti |
+| arXiv 2021.5 | Zhejiang University | X-view: Non-egocentric Multi-View 3D Object Detector |  det:kitti, nuScenes |
 | arXiv 2021.6 | Baidu | FusionPainting: Multimodal Fusion with Adaptive Attention for 3D Object  Detection |  det:nuScenes |
 | arXiv 2021.6 | Google, Waymo | RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection |  det:Waymo |
+| arXiv 2021.7 | Google, Waymo | Lidar Light Scattering Augmentation (LISA): Physics-based Simulation of AdverseWeather Conditions for 3D Object Detection | 3D augmentation|
 
 
 ## KITTI paper
 | Pub.     | Title. |  car moderate AP(test) |  Remark |
 | :-----   | :----: | :----: | :----: |
+| ICCV2021 | Pyramid R-CNN:Towards Better Performance and Adaptability for 3D Object Detection |  82.08 |   -   |
+| ICCV2021 | VoTr: Voxel Transformer for 3D Object Detection |  82.09 |   Voxel-Transformer   |
 | ICCV2021 | Improving 3D Object Detection with Channel-wise Transformer |  81.77 |   Transformer   |
 | ICCV2021 | SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation |  82.13 |   Domain adapation   |
 | CVPR2021 | SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud |  81.71 |   -   |
@@ -49,17 +57,21 @@
 | AAAI2021 | Voxel R-CNN: Towards High Performance Voxel-based 3D Object Detection |  81.62 |   25FPS    |
 | arXiv 2021.4 | M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers |  81.73 |  Transformers based   |
 | arXiv 2021.5 | Boundary-Aware 3D Object Detection from Point Clouds |  81.61 |   car bev rank 1st    |
+| arXiv 2021.5 | X-view: Non-egocentric Multi-View 3D Object Detector |  81.35 |   Non-egocentric Multi-View    |
 
 ## nuScenes paper
 | Pub.     | Title. |  mAP(val) |  NDS(val) |
 | :-----   | :----: | :----: | :----: |
+| arXiv 2021.5 | X-view: Non-egocentric Multi-View 3D Object Detector |  51.69 |  63.76     |
 | arXiv 2021.6 | FusionPainting: Multimodal Fusion with Adaptive Attention for 3D Object  Detection |  66.53 |  70.68     |
 
 
 ## Waymo paper
 | Pub.     | Title. | vehicle 3D APH L2(val) |  Pedestrian 3D APH L2(val) |
 | :-----   | :----: | :----: | :----: |
-| ICCV2021 | Improving 3D Object Detection with Channel-wise Transformer |  69.04 |   -   |
+| ICCV2021 | Pyramid R-CNN:Towards Better Performance and Adaptability for 3D Object Detection |  66.68 |  -   |
+| ICCV2021 | VoTr: Voxel Transformer for 3D Object Detection |  65.29 |  -   |
+| ICCV2021 | Improving 3D Object Detection with Channel-wise Transformer |  69.04 |   -   | 
 | ICCV2021 | SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation |  65.98 |   57.68   |
 | CVPR2021 | To the Point: Efficient 3D Object Detection in the Range Image with Graph Convolution Kernels |  56.7 |  61.5  |
 | CVPR2021 | LiDAR R-CNN: An Efficient and Universal 3D Object Detector |  64.2 |  51.7  |
