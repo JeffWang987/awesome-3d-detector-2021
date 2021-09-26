@@ -1,5 +1,5 @@
 # awesome-3d-detector-2021
-3d-detector papers within year 2021, including CVPR, ICRA, ICLR, AAAI, ICCV, arXiv, etc.
+3d-detector papers within year 2021, including CVPR, ICRA, ICLR, AAAI, ICCV, ACM MM, arXiv, etc.
 
 ## Paper List (before 2021.9)
 
@@ -11,6 +11,7 @@
 | ICCV2021 |CUHK, HUAWEI Noah | VoTr: Voxel Transformer for 3D Object Detection | det:kitti,Waymo |
 | ICCV2021 |USC, Waymo | SPG: Unsupervised Domain Adaptation for 3D Object Detection via Semantic Point Generation |  det:kitti,Waymo |
 | ICCV2021 | Zhejiang University, DAMO Academy | Improving 3D Object Detection with Channel-wise Transformer |  det:kitti, Waymo |
+| ICCV2021 | FAIR | An End-to-End Transformer Model for 3D Object Detection |  det:ScanNet |
 | CVPR2021 | Southeast University, NUST | SIENet: Spatial Information Enhancement Network for 3D Object Detection from Point Cloud |  det:kitti |
 | CVPR2021 | Yonsei University | HVPR: Hybrid Voxel-Point Representation for Single-stage 3D Object Detection |  det:kitti |
 | CVPR2021 | CUHK | SE-SSD: Self-Ensembling Single-Stage Object Detector From Point Cloud) |  det:kitti |
@@ -39,7 +40,12 @@
 | arXiv 2021.6 | Baidu | FusionPainting: Multimodal Fusion with Adaptive Attention for 3D Object  Detection |  det:nuScenes |
 | arXiv 2021.6 | Google, Waymo | RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection |  det:Waymo |
 | arXiv 2021.7 | Google, Waymo | Lidar Light Scattering Augmentation (LISA): Physics-based Simulation of AdverseWeather Conditions for 3D Object Detection | 3D augmentation|
-
+| arXiv 2021.7 | HUKST | DV-Det: Efficient 3D Point Cloud Object Detection with Dynamic Voxelization | det:kitti|
+| arXiv 2021.8 | Horizon | Real-Time Anchor-Free Single-Stage 3D Detection with IoU-Awareness | det:Waymo|
+| arXiv 2021.8 | Xi'an Jiaotong University | MBDF-Net: Multi-Branch Deep Fusion Network for 3D Object Detection | det:kitti|
+| arXiv 2021.8 | Baidu | AutoShape: Real-Time Shape-Aware Monocular 3D Object Detection | det:kitti|
+| ACM MM21 | Zhejiang University | From Voxel to Point: IoU-guided 3D Object Detection for Point Cloud with Voxel-to-Point Decoder| det:kitti|
+| ACM MM21 | Zhejiang University | Anchor-free 3D Single Stage Detector with Mask-Guided Attention for Point Cloud| det:kitti|
 
 ## KITTI paper
 | Pub.     | Title. |  car moderate AP(test) |  Remark |
@@ -58,6 +64,11 @@
 | arXiv 2021.4 | M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers |  81.73 |  Transformers based   |
 | arXiv 2021.5 | Boundary-Aware 3D Object Detection from Point Clouds |  81.61 |   car bev rank 1st    |
 | arXiv 2021.5 | X-view: Non-egocentric Multi-View 3D Object Detector |  81.35 |   Non-egocentric Multi-View    |
+| arXiv 2021.7 | DV-Det: Efficient 3D Point Cloud Object Detection with Dynamic Voxelization |  76.74 |  75FPS    |
+| arXiv 2021.8 | MBDF-Net: Multi-Branch Deep Fusion Network for 3D Object Detection |  80.00 |  multi-modal    |
+| arXiv 2021.8 | AutoShape: Real-Time Shape-Aware Monocular 3D Object Detection |  14.17 |  mono    |
+| ACM MM21 | From Voxel to Point: IoU-guided 3D Object Detection for Point Cloud with Voxel-to-Point Decoder |  81.58 |  -    |
+| ACM MM21 | Anchor-free 3D Single Stage Detector with Mask-Guided Attention for Point Cloud |  79.68 |  -    |
 
 ## nuScenes paper
 | Pub.     | Title. |  mAP(val) |  NDS(val) |
@@ -79,3 +90,4 @@
 | arXiv 2021.3 | 3D-MAN: 3D Multi-frame Attention Network for Object Detection |  67.14 |  59.04  |
 | arXiv 2021.4 | M3DETR: Multi-representation, Multi-scale, Mutual-relation 3D Object Detection with Transformers |  66.02 | -  |
 | arXiv 2021.6 | RSN: Range Sparse Net for Efficient, Accurate LiDAR 3D Object Detection |  69.5 |  69.9  |
+| arXiv 2021.8 | Real-Time Anchor-Free Single-Stage 3D Detection with IoU-Awareness |  73.89 | 72.41  |
